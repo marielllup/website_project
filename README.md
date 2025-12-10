@@ -29,11 +29,13 @@ This project was developed with the purpose of learning how an e-commerce workfl
 
 ## Preview
 
+### Homepage
+![Homepage Screenshot](./homepage.png)
+
 ### Cart Page
 ![Cart Screenshot](./cart.png)
 
-### Homepage — Featured Products
-![Homepage Screenshot](./homepage.png)
+
 
 ### Best-selling Vinyls Section
 ![Products Screenshot](./best_products.png)
