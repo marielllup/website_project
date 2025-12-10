@@ -43,22 +43,28 @@ This project was developed with the purpose of learning how an e-commerce workfl
 ## Technologies Used
 
 - **HTML5** — structure of the interface  
-- **CSS3** — layout, spacing, colors, basic styling  
+- **CSS3** — layout, spacing, colors, basic styling. The website is fully responsive, with layouts optimized for both desktop and mobile devices.  
+A dedicated print stylesheet was also implemented to ensure clean formatting when users print the page. 
 - **JavaScript (ES6)** — dynamic cart logic, quantity selection, discount function, UI interactions  
 - **Images** — product previews for a realistic look. All product photos displayed in this project were shot and edited by me.
 
 ---
 
 ## 📂 Project Structure
-index.html
-cart.html ← shopping cart page
-prodotti.html ← product listing (if used)
-style.css
-script.js
-/img ← images used across the website
+
+home.html </br>
+carrello.html ← shopping cart page </br>
+categorie.html ← product listing </br>
+schermo.css </br>
+mobile.css </br>
+stampa.css </br>
+istruzioni.js </br>
+funzioniEvariabili.js </br>
+/immagini ← images used across the website
+
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 This project was built to practice:
 
@@ -72,7 +78,7 @@ The graphic design is intentionally minimal and serves only as a foundation for 
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Mariella Rossi**  
 Master’s student in Digital Information (LM-91)  
