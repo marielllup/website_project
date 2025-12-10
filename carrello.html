@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="schermo.css" media="screen">
+        <script src="funzioniEvariabili.js"></script>
+        <script src="istruzioni.js" defer></script>
+        <title>Carrello</title>
+    </head>
+    <body>
+        <header>
+        <h1><a href="home.html"> VV </a></h1>
+        <p>Vinili Vintage</p>
+        
+        <nav>
+            <table>
+                <tr>
+                    <td> 
+                        <a href="categorie.html">Novità</a>
+                    </td>
+                    <td class="attuale">
+                        <a href="carrello.html">Carrello</a>
+                    </td>
+                    </tr>
+        </table>
+        </nav>
+        </header>
+        <div id="carrello">
+            <h1>Carrello</h1>
+            <p id="nota" style="font-style: italic;color:gray">Clicca sull'immagine che ti interessa per fermare lo scorrimento automatico</p>
+            <form method="post" id="modulo" name="modulo" action="javascript:void(0)">
+                            <figure class="vinilicarrello">
+                            <img id="banner1" src="immagini/vinile1.JPG" alt="Vinile-Ti conosco mascherina-Mina" onclick="clearInterval(onOff)">   
+                            </figure>
+                    <table class="tabellaAcquisti" id="uno">
+                    <tr>
+                        <td><h1>Ti conosco mascherina - Mina</h1></td>
+                        </tr>
+                        <tr>
+                        <td style="color:rgb(219, 87, 131) ;font-weight:bold;">&euro;<script>document.write((prodotti[0].prezzo).toFixed(2))</script></td>
+                        </tr>
+                        <tr>
+                        <td>Ti conosco mascherina è un album della cantante italiana Mina,<br> pubblicato nel 1990.</td>
+                        </tr>
+                        <tr><td>&times;
+                                <select onChange="prodotti[0].quanti=this.value">
+                                  <option value="0" selected>0</option>
+                                  <option value="1">1</option>
+                                  <option value="2">2</option>
+                                  <option value="3">3</option>
+                                  <option value="4">4</option>
+                                </select>
+                                <input type="button" id="acquista1" class="acquista" value="Aggiungi">
+                            </td>
+                        </tr>
+                </table>
+                <figure class="vinilicarrello">
+                    <img id="banner2" src="immagini/vinile2.JPG" alt="Vinile-A kind of magic-Queen" onclick="clearInterval(interval2)">   
+                    </figure>
+            <table class="tabellaAcquisti" id="due">
+            <tr>
+                <td><h1>A kind of magic - Queen</h1></td>
+                </tr>
+                <tr>
+                <td style="color:rgb(219, 87, 131) ;font-weight:bold;">&euro;<script>document.write((prodotti[1].prezzo).toFixed(2))</script></td>
+                </tr>
+                <tr>
+                <td>A Kind of Magic è il dodicesimo album in studio del gruppo musicale rock britannico Queen,
+                     pubblicato per la prima volta il 2 giugno del 1986.</td>
+                </tr>
+                <tr><td>&times;
+                        <select onChange="prodotti[1].quanti=this.value">
+                          <option value="0" selected>0</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                        <input type="button" id="acquista2" class="acquista" value="Aggiungi">
+                    </td>
+                </tr>
+        </table>
+        <table id="sconto">
+        <tr><th>Offerta speciale!</th>
+                </tr>
+            <tr>
+                <td>Acquista un vinile entro la fine del mese,<br> per avere lo sconto del 50% su tutti gli acquisti</td>
+           </tr>
+           <tr>
+            <td><input id="scontoHTML" type="button" value="Applica lo sconto"></td>
+           </tr>
+        </table>
+        <table id="tabellaTotali">
+            <tr>
+                <th>Totale</th>
+            </tr>
+            
+            <tr>
+                 <td class="tdTotale">&euro; <output name="totaleHTML" id="totaleHTML"> 0.00</output></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="spedizione" id="provincia" value="0" checked>Spedizione in provincia di viterbo : GRATUITA!</td>
+            </tr>
+            <tr>
+                <td class="tdTotale"><input type="radio" name="spedizione" id="fuoriprovincia" value="10">Spedizione fuori provincia: 10&euro;</td>
+            </tr>
+                
+           <tr>
+                <td class="tdTotale"><input type="button" id="confermaOrdine" value="Conferma Ordine"></td>
+            </tr>
+        </table>
+            </form> 
+        </div>
+        </body>
+        </html>
+
+        

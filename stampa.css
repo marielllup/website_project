@@ -1,0 +1,25 @@
+body{
+    color:black;
+    background:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header nav{
+    display:none;
+}
+table#tuttiIprod{
+    display:none;
+}
+img#logo{
+    width:15%;
+}
+figure.vinili img{
+    width:100%;
+}
+p#negozio{
+    display:none;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
