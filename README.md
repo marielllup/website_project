@@ -30,13 +30,13 @@ This project was developed with the purpose of learning how an e-commerce workfl
 ## Preview
 
 ### Cart Page
-![Cart Screenshot](./screenshot1.png)
+![Cart Screenshot](./cart.png)
 
 ### Homepage — Featured Products
-![Homepage Screenshot](./screenshot2.png)
+![Homepage Screenshot](./homepage.png)
 
 ### Best-selling Vinyls Section
-![Products Screenshot](./screenshot3.png)
+![Products Screenshot](./best_products.png)
 
 ---
 
