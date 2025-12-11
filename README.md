@@ -78,6 +78,9 @@ This project was built to practice:
 
 The graphic design is intentionally minimal and serves only as a foundation for practicing logic and layout.
 
+
+ [Website Project – Vinyl Store Live Demo](https://marielllup.github.io/website_project/)
+  
 ---
 
 ##  Author
