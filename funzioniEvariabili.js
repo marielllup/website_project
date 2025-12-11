@@ -15,13 +15,13 @@ const prodotti = new Array();
 
 const serieImmagini = new Array(3);      
 serieImmagini[0] = new Image();      
-serieImmagini[0].src = "immagini/vinile1.jpg";
+serieImmagini[0].src = "immagini/vinile1.JPG";
 serieImmagini[0].alt = "vinile foto 1";
 serieImmagini[1] = new Image();     
-serieImmagini[1].src = "immagini/retro1.jpg";
+serieImmagini[1].src = "immagini/retro1.JPG";
 serieImmagini[1].alt = "vinile foto 2";
 serieImmagini[2] = new Image();      
-serieImmagini[2].src = "immagini/dettagliov1.jpg";
+serieImmagini[2].src = "immagini/dettagliov1.JPG";
 serieImmagini[2].alt = "vinile foto 3";
 
 let i = 0;      
@@ -34,13 +34,13 @@ serieImmagini[i].src;}
 
 const serieImm2 = new Array(3);
 serieImm2[0]= new Image();
-serieImm2[0].src = "immagini/vinile2.jpg";
+serieImm2[0].src = "immagini/vinile2.JPG";
 serieImm2[0].alt = "vinile 2 foto 1";
 serieImm2[1] = new Image();     
-serieImm2[1].src = "immagini/retro2.jpg";
+serieImm2[1].src = "immagini/retro2.JPG";
 serieImm2[1].alt = "vinile 2 foto 2";
 serieImm2[2] = new Image();      
-serieImm2[2].src = "immagini/dettagliov2.jpg";
+serieImm2[2].src = "immagini/dettagliov2.JPG";
 serieImm2[2].alt = "vinile 2 foto 3";
 
 let indice = 0;      
@@ -63,4 +63,5 @@ function verifica(){
 	{document.getElementById('scontoHTML').addEventListener("click",function(){document.getElementById('totaleHTML').value=sconto()})}
 
 }
+
 
